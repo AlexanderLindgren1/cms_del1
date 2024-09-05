@@ -62,7 +62,10 @@
     width: 100%;
     overflow-y: scroll;
 }
-
+#grid_item{
+    overflow-y: scroll;
+    
+}
 #flex_item_img {
     width: 200px;
     height: 200px;

@@ -1,6 +1,6 @@
 export default function ImageWithText({ blok }) {
     return (
-        <div id="grid_container">
+        <div id="grid_item">
         
            
                 <img

@@ -16,12 +16,15 @@ export default function Button({ blok }) {
         }
     }, [isClicked]);
 
+
+    console.log(blok.label);
+    console.log(blok.label)
     return (
         <button
             className={`button ${isClicked ? 'button-clicked' : ''}`}
             onClick={handleClick}
         >
-            {blok.label || "click here"}
+            {blok.label && blok.label || "click here"}
         </button>
     );
 }
